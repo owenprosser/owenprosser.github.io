@@ -3,26 +3,20 @@
         <link rel="stylesheet" href="style.css">
         <title>Leeds Book Club</title>
         <link rel="icon" type="image/x-icon" href="/icons/favicon.ico">
-        <script>
-            window.addEventListener('resize', function(event) {
-                var width = window.innerWidth;
-                console.log(width);
-            }, true);
-        </script>
+        <script src="scripts.js"></script>
    </head>
    <body>
     <div class="header">
-        <h1>Leeds Book Club</h1>
+        <h1 onclick="reverseChildren()">Leeds Book Club</h1>
     </div>
-
-    <div class="grid-container">
+    <div id="parent" class="grid-container">
         <div class="grid-item">
             <img src="covers/1.jpg"/>
         </div>
         <div class="grid-item">
             <img src="covers/2.jpg"/>
         </div>
-        <div class="grid-item">
+        <div class="grid-item" >
             <img src="covers/3.jpg"/>
         </div>
         <div class="grid-item">
@@ -59,7 +53,7 @@
             <img src="covers/14.jpg"/>
         </div>
         <div class="grid-item">
-            <img src="covers/15.jpg"/>
+            <img src="covers/15.webp"/>
         </div>
         <div class="grid-item">
             <img src="covers/16.jpg"/>
@@ -71,8 +65,11 @@
             <img src="covers/18.jpg"/>
         </div>
         <div class="grid-item">
-            <img src="covers/19.jpeg"/>
+            <img src="covers/19.jpg"/>
         </div>
-      </div>
+        <div class="grid-item">
+            <img src="covers/20.jpeg"/>
+        </div>
+    </div>
    </body>
 </html>
