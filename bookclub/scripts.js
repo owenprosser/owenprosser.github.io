@@ -7,13 +7,20 @@ function reverseChildren() {
 }
 
 function itemClicked(){
-    if(isInViewport(this))
+    if(isInViewport(this) || spansViewport(this))
     {
         var item = document.getElementById('detailPopup');
         item.style.display = "block";
 
         var grid = document.getElementById('parent');
-        grid.style.opacity = 0.5;
+
+        for (var i = 0; i < grid.childNodes.length; i++){
+            var item = grid.childNodes[i];
+            if(item.constructor.name != "Text")
+            {
+                item.style.opacity = 0.5;
+            }
+        }
 
         var image = document.getElementById('detailImage');
         var clickedImage = this.getElementsByTagName('img')[0];
@@ -39,6 +46,16 @@ function isInViewport(element) {
         rect.left >= 0 &&
         rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
         rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+}
+
+function spansViewport(element) {
+    const rect = element.getBoundingClientRect();
+    return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom >= (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.right >= (window.innerWidth || document.documentElement.clientWidth)
     );
 }
 

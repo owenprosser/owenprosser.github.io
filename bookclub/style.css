@@ -15,6 +15,22 @@ p{
     color: black;
     font-size: 10;
     font-family: Georgia, Helvetica, Arial, sans-serif;
+    text-align: start !important;
+    text-align: -moz-start;
+    text-align: -webkit-start;
+    padding-right: 10;
+}
+
+@media (prefers-color-scheme: dark) {
+    p{
+        color: #eee;
+        font-size: 10;
+        font-family: Georgia, Helvetica, Arial, sans-serif;
+        text-align: start !important;
+        text-align: -moz-start;
+        text-align: -webkit-start;
+        padding-right: 10;
+    }
 }
 
 .header
@@ -60,10 +76,15 @@ h1{
     display:table-cell;
 }
 
-p{
-    text-align: center;
-    font-family: Helvetica, Arial, sans-serif;
-    color: #343231;
+@media (prefers-color-scheme: dark) {
+    h1{
+        font-family: Georgia, Helvetica, Arial, sans-serif;
+        color: #eee;
+        margin:0;
+        padding:0;
+        vertical-align:middle;
+        display:table-cell;
+    }
 }
 
 img
@@ -114,16 +135,16 @@ img
     }
 }
 
-  .grid-item {
-    text-align: center;
-    margin: 5px;
-  }
+.grid-item {
+text-align: center;
+margin: 5px;
+}
 
-  .sort{
-    height: 50%;
-    width: 50%;
-    background-color: aqua;
-  }
+.sort{
+height: 50%;
+width: 50%;
+background-color: aqua;
+}
 
 .detail
   {
