@@ -47,6 +47,7 @@ p{
     -webkit-box-shadow: 0 6px 4px -4px #D3D3D3;
     -moz-box-shadow: 0 6px 4px -4px #D3D3D3;
     box-shadow: 0 6px 4px -4px #D3D3D3;
+    z-index: 99;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -64,6 +65,7 @@ p{
         background: rgba(52,50,49,0.7);
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
+        z-index: 99;
     }
 }
 
@@ -94,7 +96,16 @@ img
     height: auto;
     max-width: 95%;
     margin: auto;
+    opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
+
+img:hover
+{
+    opacity: .5;
+}
+
 @media only screen and (min-width: 480px) {
     /* styles for browsers larger than 480px; */
     .grid-container {
@@ -190,4 +201,6 @@ background-color: aqua;
 #closeButton{
     float: right;
     top: 0;
+    padding: 10px;
+    margin: 10;
 }

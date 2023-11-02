@@ -12,15 +12,7 @@ function itemClicked(){
         var item = document.getElementById('detailPopup');
         item.style.display = "block";
 
-        var grid = document.getElementById('parent');
-
-        for (var i = 0; i < grid.childNodes.length; i++){
-            var item = grid.childNodes[i];
-            if(item.constructor.name != "Text")
-            {
-                item.style.opacity = 0.5;
-            }
-        }
+        lockListView(true);
 
         var image = document.getElementById('detailImage');
         var clickedImage = this.getElementsByTagName('img')[0];
@@ -63,6 +55,15 @@ function closeDetail(){
     var item = document.getElementById('detailPopup');
     item.style.display = "none";
 
+    lockListView(false);
+}
+
+function lockListView(lock){
     var grid = document.getElementById('parent');
-    grid.style.opacity = 1;
+    if(lock){
+        grid.style.opacity = 0.5;
+    }
+    else{
+        grid.style.opacity = 1;
+    }
 }
