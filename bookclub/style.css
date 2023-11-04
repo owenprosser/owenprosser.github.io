@@ -29,12 +29,12 @@ p{
 @media (prefers-color-scheme: dark) {
     p{
         color: #eee;
-        font-size: 10;
+        font-size: 15;
         font-family: Georgia, Helvetica, Arial, sans-serif;
         text-align: start !important;
         text-align: -moz-start;
         text-align: -webkit-start;
-        padding-right: 10;
+        padding-top: 10;
     }
 }
 
@@ -105,7 +105,7 @@ img
     max-width: 95%;
     margin-left: auto;
     margin-right: auto;
-    object-fit: fill;
+    object-fit: cover;
     opacity: 1;
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
@@ -209,4 +209,10 @@ img:hover
     top: 0;
     padding: 10px;
     margin: 10;
+}
+
+.info
+{
+    color: transparent;
+    font-size: 0;
 }

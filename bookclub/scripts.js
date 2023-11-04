@@ -17,6 +17,19 @@ function itemClicked(){
         var image = document.getElementById('detailImage');
         var clickedImage = this.getElementsByTagName('img')[0];
         image.src = clickedImage.src;
+
+        var title = document.getElementById('title');
+        var clickedTitle = this.getElementsByTagName('h1')[0];
+        title.textContent = clickedTitle.textContent;
+
+        var author = document.getElementById('author');
+        var clickedAuthor = this.getElementsByTagName('h2')[0];
+        author.textContent = clickedAuthor.textContent;
+
+        var synopsis = document.getElementById('synopsis');
+        var clickedSynopsis = this.getElementsByTagName('p')[0];
+        console.log(clickedSynopsis.textContent);
+        synopsis.textContent = clickedSynopsis.textContent;
     }
     else
     {
