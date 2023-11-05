@@ -43,37 +43,47 @@ window.addEventListener('load', function() {
         request.send(null);
         var jsonData = JSON.parse(request.responseText);
 
-        var parentDiv = document.getElementById("parent");
-
-        for (var bookIndex = 0; bookIndex < jsonData.books.length; bookIndex++)
-        {   
-            var ul = this.document.createElement("ul");
-            ul.addEventListener("click", itemClicked, false);
-            ul.className = "grid-item";
-
-            var image = this.document.createElement("img");
-            image.src = jsonData.books[bookIndex].image_url;
-
-            var h1 = this.document.createElement("h1");
-            h1.className = "info";
-            h1.textContent = jsonData.books[bookIndex].author;
-
-            var h2 = this.document.createElement("h2");
-            h2.className = "info";
-            h2.textContent = jsonData.books[bookIndex].title;
-
-            var p = this.document.createElement("p");
-            p.className = "info";
-            p.textContent = jsonData.books[bookIndex].synopsis;
-
-            ul.append(image);
-            ul.append(h1);
-            ul.append(h2);
-            ul.append(p);
-
-            parentDiv.append(ul);
-        }
+        reloadContent(jsonData, false);
     })
+
+function reloadContent(jsonData, reverseOrder)
+{
+    var parentDiv = document.getElementById("parent");
+
+    if(reverseOrder)
+    {
+        jsonData.books = jsonData.books.reverse();
+    }
+
+    for (var bookIndex = 0; bookIndex < jsonData.books.length; bookIndex++)
+    {   
+        var ul = this.document.createElement("ul");
+        ul.addEventListener("click", itemClicked, false);
+        ul.className = "grid-item";
+
+        var image = this.document.createElement("img");
+        image.src = jsonData.books[bookIndex].image_url;
+
+        var h1 = this.document.createElement("h1");
+        h1.className = "info";
+        h1.textContent = jsonData.books[bookIndex].author;
+
+        var h2 = this.document.createElement("h2");
+        h2.className = "info";
+        h2.textContent = jsonData.books[bookIndex].title;
+
+        var p = this.document.createElement("p");
+        p.className = "info";
+        p.textContent = jsonData.books[bookIndex].synopsis;
+
+        ul.append(image);
+        ul.append(h1);
+        ul.append(h2);
+        ul.append(p);
+
+        parentDiv.append(ul);
+    }
+}
 
 function isInViewport(element) {
     const rect = element.getBoundingClientRect();
