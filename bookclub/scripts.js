@@ -28,8 +28,15 @@ function itemClicked(){
 
         var synopsis = document.getElementById('synopsis');
         var clickedSynopsis = this.getElementsByTagName('p')[0];
-        console.log(clickedSynopsis.textContent);
         synopsis.textContent = clickedSynopsis.textContent;
+
+        var selector = document.getElementById('selector');
+        var clickedSeleector = this.getElementsByTagName('p')[1];
+        selector.textContent = clickedSeleector.textContent;
+
+        var date = document.getElementById('date');
+        var clickedDate = this.getElementsByTagName('p')[2];
+        date.textContent = clickedDate.textContent;
     }
     else
     {
@@ -56,7 +63,7 @@ function reloadContent(jsonData, reverseOrder)
     }
 
     for (var bookIndex = 0; bookIndex < jsonData.books.length; bookIndex++)
-    {   
+    {
         var ul = this.document.createElement("ul");
         ul.addEventListener("click", itemClicked, false);
         ul.className = "grid-item";
@@ -76,10 +83,20 @@ function reloadContent(jsonData, reverseOrder)
         p.className = "info";
         p.textContent = jsonData.books[bookIndex].synopsis;
 
+        var p2 = this.document.createElement("p");
+        p2.className = "info";
+        p2.textContent = jsonData.books[bookIndex].selector;
+
+        var p3 = this.document.createElement("p");
+        p3.className = "info";
+        p3.textContent = jsonData.books[bookIndex].date;
+
         ul.append(image);
         ul.append(h1);
         ul.append(h2);
         ul.append(p);
+        ul.append(p2);
+        ul.append(p3);
 
         parentDiv.append(ul);
     }
