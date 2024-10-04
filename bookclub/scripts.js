@@ -69,6 +69,7 @@ function reloadContent(jsonData, reverseOrder)
         ul.className = "grid-item";
 
         var image = this.document.createElement("img");
+        image.className = "grid-item"
         image.src = jsonData.books[bookIndex].image_url;
 
         var h1 = this.document.createElement("h1");
