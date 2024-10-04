@@ -58,7 +58,7 @@ p{
 @media (prefers-color-scheme: dark) {
     body {
       color: #eee;
-      background: #121212;
+      background: #181818;
     }
 }
 
@@ -120,7 +120,7 @@ img:hover
     /* styles for browsers larger than 480px; */
     .grid-container {
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto auto auto;
         margin-top: 0;
     }
 }
@@ -129,7 +129,7 @@ img:hover
     /* styles for browsers larger than 960px; */
     .grid-container {
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto auto auto;
         margin-top: 0;
     }
 }
@@ -138,7 +138,7 @@ img:hover
     /* styles for browsers larger than 1440px; */
     .grid-container {
         display: grid;
-        grid-template-columns: auto auto auto auto;
+        grid-template-columns: auto auto auto auto auto;
         margin-top: 0;
     }
 }
@@ -147,7 +147,7 @@ img:hover
     /* styles for browsers larger than 2000px; */
     .grid-container {
         display: grid;
-        grid-template-columns: auto auto auto auto;
+        grid-template-columns: auto auto auto auto auto;
         margin-top: 0;
     }
 }
