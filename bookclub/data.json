@@ -8,7 +8,7 @@
             "rating": "",
             "selector": "George #1",
             "image_url":"covers/1.jpg",
-            "date":"01/03/2023"
+            "date":"March 2022"
         },
         {
             "author": "Kurt Vonnegut",
@@ -17,7 +17,7 @@
             "rating": "",
             "selector": "Rhys",
             "image_url":"covers/2.jpg",
-            "date":"12/04/2023"
+            "date":"April 2022"
         },
         {
             "author": "Hanif Kureishi",
@@ -26,7 +26,7 @@
             "rating": "",
             "selector": "Rachel",
             "image_url":"covers/3.jpg",
-            "date":"01/05/2023"
+            "date":"May 2022"
         },
         {
             "author": "Keith Waterhouse",
@@ -35,7 +35,7 @@
             "rating": "",
             "selector": "Maddy",
             "image_url":"covers/4.jpg",
-            "date":"21/06/2023"
+            "date":"June 2022"
         },
         {
             "author": "Yū Miri",
@@ -44,7 +44,7 @@
             "rating": "",
             "selector": "Owen",
             "image_url":"covers/5.webp",
-            "date":"12/07/2023"
+            "date":"July 2022"
         },
         {
             "author": "John Darnielle",
@@ -53,7 +53,7 @@
             "rating": "",
             "selector": "George #2",
             "image_url":"covers/6.jpg",
-            "date":"23/08/2023"
+            "date":"August 2022"
         },
         {
             "author": "Alexandra Kleeman",
@@ -62,25 +62,7 @@
             "rating": "",
             "selector": "Martin",
             "image_url":"covers/7.jpg",
-            "date":"20/09/2023"
-        },
-        {
-            "author": "Stephen King",
-            "title": "Different Seasons",
-            "synopsis": "Includes the stories “The Body” and “Rita Hayworth and Shawshank Redemption”—set in the fictional town of Castle Rock, Maine.",
-            "rating": "",
-            "selector": "Rachel",
-            "image_url":"covers/8.jpg",
-            "date":"17/10/2022"
-        },
-        {
-            "author": "Italo Calvino",
-            "title": "If on a Winter's Night a Traveler",
-            "synopsis": "If on a Winter's Night a Traveler is a marvel of ingenuity, an experimental text that looks longingly back to the great age of narration—\"when time no longer seemed stopped and did not yet seem to have exploded.\" Italo Calvino's novel is in one sense a comedy in which the two protagonists, the Reader and the Other Reader, ultimately end up married, having almost finished If on a Winter's Night a Traveler. In another, it is a tragedy, a reflection on the difficulties of writing and the solitary nature of reading. The Reader buys a fashionable new book, which opens with an exhortation: \"Relax. Concentrate. Dispel every other thought. Let the world around you fade.\" Alas, after 30 or so pages, he discovers that his copy is corrupted, and consists of nothing but the first section, over and over. Returning to the bookshop, he discovers the volume, which he thought was by Calvino, is actually by the Polish writer Bazakbal. Given the choice between the two, he goes for the Pole, as does the Other Reader, Ludmilla. But this copy turns out to be by yet another writer, as does the next, and the next. The real Calvino intersperses 10 different pastiches—stories of menace, spies, mystery, premonition—with explorations of how and why we choose to read, make meanings, and get our bearings or fail to. Meanwhile the Reader and Ludmilla try to reach, and read, each other. If on a Winter's Night is dazzling, vertiginous, and deeply romantic. \"What makes lovemaking and reading resemble each other most is that within both of them times and spaces open, different from measurable time and space.\"",
-            "rating": "",
-            "selector": "Rhys",
-            "image_url":"covers/9.jpg",
-            "date":"22/11/2022"
+            "date":"September 2022"
         },
         {
             "author": "Kay Dick",
@@ -89,7 +71,25 @@
             "rating": "",
             "selector": "?",
             "image_url":"covers/10.jpg",
-            "date":"01/12/2023"
+            "date":"October 2022"
+        },
+        {
+            "author": "Italo Calvino",
+            "title": "If on a Winter's Night a Traveler",
+            "synopsis": "If on a Winter's Night a Traveler is a marvel of ingenuity, an experimental text that looks longingly back to the great age of narration—\"when time no longer seemed stopped and did not yet seem to have exploded.\" Italo Calvino's novel is in one sense a comedy in which the two protagonists, the Reader and the Other Reader, ultimately end up married, having almost finished If on a Winter's Night a Traveler. In another, it is a tragedy, a reflection on the difficulties of writing and the solitary nature of reading. The Reader buys a fashionable new book, which opens with an exhortation: \"Relax. Concentrate. Dispel every other thought. Let the world around you fade.\" Alas, after 30 or so pages, he discovers that his copy is corrupted, and consists of nothing but the first section, over and over. Returning to the bookshop, he discovers the volume, which he thought was by Calvino, is actually by the Polish writer Bazakbal. Given the choice between the two, he goes for the Pole, as does the Other Reader, Ludmilla. But this copy turns out to be by yet another writer, as does the next, and the next. The real Calvino intersperses 10 different pastiches—stories of menace, spies, mystery, premonition—with explorations of how and why we choose to read, make meanings, and get our bearings or fail to. Meanwhile the Reader and Ludmilla try to reach, and read, each other. If on a Winter's Night is dazzling, vertiginous, and deeply romantic. \"What makes lovemaking and reading resemble each other most is that within both of them times and spaces open, different from measurable time and space.\"",
+            "rating": "",
+            "selector": "Rhys",
+            "image_url":"covers/9.jpg",
+            "date":"November 2022"
+        },
+        {
+            "author": "Stephen King",
+            "title": "Different Seasons",
+            "synopsis": "Includes the stories “The Body” and “Rita Hayworth and Shawshank Redemption”—set in the fictional town of Castle Rock, Maine.",
+            "rating": "",
+            "selector": "Rachel",
+            "image_url":"covers/8.jpg",
+            "date":"December 2022"
         },
         {
             "author": "Shirley Jackson",
@@ -98,7 +98,7 @@
             "rating": "",
             "selector": "Maddy",
             "image_url":"covers/11.jpg",
-            "date":"01/01/2023"
+            "date":"January 2023"
         },
         {
             "author": "Mo Yan",
@@ -107,7 +107,7 @@
             "rating": "",
             "selector": "Owen",
             "image_url":"covers/12.jpg",
-            "date":"01/04/2023"
+            "date":"Febuary 2023"
         },
         {
             "author": "Raymond Chandler",
@@ -116,7 +116,7 @@
             "rating": "",
             "selector": "George #2",
             "image_url":"covers/13.jpg",
-            "date":"01/04/2023"
+            "date":"March 2023"
         },
         {
             "author": "Chuck Palahniuk",
@@ -125,7 +125,7 @@
             "rating": "",
             "selector": "Martin",
             "image_url":"covers/14.jpg",
-            "date":"01/04/2023"
+            "date":"April 2023"
         },
         {
             "author": "Thomas Savage",
@@ -134,7 +134,7 @@
             "rating": "",
             "selector": "George #1",
             "image_url":"covers/15.webp",
-            "date":"01/04/2023"
+            "date":"May 2023"
         },
         {
             "author": "Susanna Clarke",
@@ -143,7 +143,7 @@
             "rating": "",
             "selector": "Candy",
             "image_url":"covers/16.jpg",
-            "date":"01/04/2023"
+            "date":"June 2023"
         },
         {
             "author": "Eimear McBride",
@@ -152,7 +152,7 @@
             "rating": "",
             "selector": "Risha",
             "image_url":"covers/17.jpg",
-            "date":"01/04/2023"
+            "date":"July 2023"
         },
         {
             "author": "Juan Pablo Villalobos",
@@ -161,7 +161,7 @@
             "rating": "",
             "selector": "Rhys",
             "image_url":"covers/18.jpg",
-            "date":"01/04/2023"
+            "date":"August 2023"
         },
         {
             "author": "Elif Shafak",
@@ -170,7 +170,7 @@
             "rating": "",
             "selector": "Rachel",
             "image_url":"covers/19.jpg",
-            "date":"01/04/2023"
+            "date":"September 2023"
         },
         {
             "author": "Shirley Jackson",
@@ -179,7 +179,7 @@
             "rating": "",
             "selector": "Owen",
             "image_url":"covers/20.jpeg",
-            "date":"01/04/2023"
+            "date":"October 2023"
         },
         {
             "author": "Anna Burns",
@@ -188,7 +188,115 @@
             "rating": "",
             "selector": "Martin",
             "image_url":"covers/21.jpg",
-            "date":"01/04/2023"
+            "date":"November 2023"
+        },
+        {
+            "author": "Hans Christian Andersen",
+            "title": "The Little Match Girl",
+            "synopsis": "",
+            "rating": "",
+            "selector": "",
+            "image_url":"covers/22.jpg",
+            "date":"December 2023"
+        },
+        {
+            "author": "Christopher Buckley",
+            "title": "Thank You for Smoking",
+            "synopsis": "",
+            "rating": "",
+            "selector": "",
+            "image_url":"covers/23.jpg",
+            "date":"January 2024"
+        },
+        {
+            "author": "Kurt Vonnegut",
+            "title": "Sirens of titan",
+            "synopsis": "",
+            "rating": "",
+            "selector": "",
+            "image_url":"covers/24.jpg",
+            "date":"Febuary 2024"
+        },
+        {
+            "author": "Eliza Clarke",
+            "title": "Boys Parts",
+            "synopsis": "",
+            "rating": "",
+            "selector": "",
+            "image_url":"covers/25.jpg",
+            "date":"March 2024"
+        },
+        {
+            "author": "Ursula K. Le Guin",
+            "title": "The left hand of darkness",
+            "synopsis": "",
+            "rating": "",
+            "selector": "",
+            "image_url":"covers/26.jpg",
+            "date":"April 2024"
+        },
+        {
+            "author": "Samantha Hunt",
+            "title": "The Seas",
+            "synopsis": "",
+            "rating": "",
+            "selector": "",
+            "image_url":"covers/27.jpg",
+            "date":"May 2024"
+        },
+        {
+            "author": "Small things like these",
+            "title": "Claire Keegan",
+            "synopsis": "",
+            "rating": "",
+            "selector": "",
+            "image_url":"covers/28.jpg",
+            "date":"June 2024"
+        },
+        {
+            "author": "Yevgeny Zamyatin",
+            "title": "We",
+            "synopsis": "",
+            "rating": "",
+            "selector": "",
+            "image_url":"covers/29.jpg",
+            "date":"July 2024"
+        },
+        {
+            "author": "Alan Warner",
+            "title": "Morvern Callar",
+            "synopsis": "",
+            "rating": "",
+            "selector": "",
+            "image_url":"covers/30.jpg",
+            "date":"August 2024"
+        },
+        {
+            "author": "Caleb Azumah Nelson",
+            "title": "Open Water",
+            "synopsis": "",
+            "rating": "",
+            "selector": "",
+            "image_url":"covers/31.jpg",
+            "date":"September 2024"
+        },
+        {
+            "author": "Susan Hill",
+            "title": "Woman in black",
+            "synopsis": "",
+            "rating": "",
+            "selector": "",
+            "image_url":"covers/32.jpg",
+            "date":"October 2024"
+        },
+        {
+            "author": "Seichō Matsumoto",
+            "title": "Tokyo Express",
+            "synopsis": "",
+            "rating": "",
+            "selector": "",
+            "image_url":"covers/33.jpg",
+            "date":"Febuary 2025"
         }
     ]
 }
