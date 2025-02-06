@@ -50,7 +50,7 @@ window.addEventListener('load', function() {
         request.send(null);
         var jsonData = JSON.parse(request.responseText);
 
-        reloadContent(jsonData, false);
+        reloadContent(jsonData, true);
     })
 
 function reloadContent(jsonData, reverseOrder)
