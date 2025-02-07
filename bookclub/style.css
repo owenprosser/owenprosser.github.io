@@ -134,11 +134,20 @@ img:hover
     }
 }
 
+@media only screen and (min-width: 1080px) {
+    /* styles for browsers larger than 1440px; */
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin-top: 0;
+    }
+}
+
 @media only screen and (min-width: 1440px) {
     /* styles for browsers larger than 1440px; */
     .grid-container {
         display: grid;
-        grid-template-columns: auto auto auto auto auto;
+        grid-template-columns: auto auto auto auto;
         margin-top: 0;
     }
 }
