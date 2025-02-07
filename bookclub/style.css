@@ -120,7 +120,7 @@ img:hover
     /* styles for browsers larger than 480px; */
     .grid-container {
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto;
         margin-top: 0;
     }
 }
@@ -129,7 +129,7 @@ img:hover
     /* styles for browsers larger than 960px; */
     .grid-container {
         display: grid;
-        grid-template-columns: auto auto auto auto;
+        grid-template-columns: auto auto;
         margin-top: 0;
     }
 }
