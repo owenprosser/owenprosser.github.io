@@ -48,11 +48,30 @@ p{
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     text-align:center;
-    display:table;
+    display:inline-block;
     -webkit-box-shadow: 0 6px 4px -4px #D3D3D3;
     -moz-box-shadow: 0 6px 4px -4px #D3D3D3;
     box-shadow: 0 6px 4px -4px #D3D3D3;
     z-index: 99;
+}
+
+.calendar{
+    position: absolute;
+    height: 100%;
+    display:table;
+}
+
+#calendar-button{
+    height: 50px;
+    width: 50px;
+    font-size: 200%;
+    margin: 5px;
+    display:table-cell;
+}
+
+.title{
+    display: inline-block;
+    height: 100%;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -83,6 +102,7 @@ h1{
     margin:0;
     padding:0;
     vertical-align:middle;
+    align-self: center;
     display:table-cell;
 }
 
@@ -220,8 +240,16 @@ img:hover
     margin: 10;
 }
 
+#calendar{
+    float: left;
+    top: 0;
+    padding: 10px;
+    margin: 10;
+}
+
 .info
 {
     color: transparent;
     font-size: 0;
+
 }
