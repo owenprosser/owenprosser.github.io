@@ -1,35 +1,23 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <title>Leeds Book Club</title>
-        <link rel="icon" type="image/x-icon" href="/icons/favicon.ico">
-        <script src="scripts.js"></script>
-   </head>
-   <body>
-    <div class="header">
-        <div class="calendar">
-            <button id="calendar-button" onclick="window.location.href='webcal://p127-caldav.icloud.com/published/2/MTAwNDA0MDgzODEwMDQwNN0zfRFHUPZTDfpGG_C6USL32Bzsx21xLCaOhJBVp1E29ikBX0OxW1KMqXPNgm64qR7Tjh4McqFedmDCd0NLTmw'">🗓️</button>
-        </div>
-        <div class="title">
-            <h1 id="title-text" onclick="reverseChildren()">Leeds Book Club</h1>
-        </div>
-    </div>
-    <div id="parent" class="grid-container">
-    </div>
-    <div id="detailPopup" class="detail" style="display: none;">
-        <div style="width: 50%; float:left">
-            <img id="detailImage"/>
-        </div>
-        <div style="width: 45%; float:right;">
-            <button id="closeButton" onclick="closeDetail()">✖</button>
-            <div style="height: 100%; overflow: scroll;">
-                <h1 id="title">This is the book title</h2>
-                <h2 id="author">Author Name</h3>
-                <p id="synopsis"></p>
-                <p id="selector"></p>
-                <p id="date"></p>
-            </div>
-        </div>
-    </div>
-   </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#e7e7e7"/>
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2e2e2e">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TLBC 📚</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="scripts.js"></script>
+<body>
+    <nav class="navbar">
+        <div class="logo">📚</div>
+        <div class="title">The Leeds Book Club.</div>
+        <a href="webcal://p127-caldav.icloud.com/published/2/MTAwNDA0MDgzODEwMDQwNN0zfRFHUPZTDfpGG_C6USL32Bzsx21xLCaOhJBVp1E29ikBX0OxW1KMqXPNgm64qR7Tjh4McqFedmDCd0NLTmw" title="Subscribe to calendar">🗓️</a>
+    </nav>
+    <div class="grid-container" id="books-grid"></div>
+    <footer class="footer">
+        <p>📚 The Leeds Book Club. 2025.</p>
+    </footer>
+</body>
 </html>
